@@ -83,7 +83,7 @@ with st.container():
             - I got qualified to work on the F-16D+ Fighting Falcons in 2018 as a Flight Line Crew and ground engineer.
             - My first overseas detachment was in Thailand 2019, as a newly qualified engineer. Nerve-racking, but definitely a memoriable experience!
             - With my management's support and guidance,  I was awarded the RSAF Best Serviceman of 2020 (Engineering Support).
-            - I have managed to build friendships with 150+ Full-time National Servicemen (NSF), whom I got to work closely with.            
+            - Forged friendships with 150+ Full-time National Servicemen (NSF), whom I got to work closely with.            
             - These days, instead of maintaining fighter jets, we are working together to solve tutorial problems in university 🤓.
             """
         )            
