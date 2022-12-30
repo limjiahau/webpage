@@ -19,11 +19,14 @@ def local_css(file_name):
 local_css("style/style.css")
 
 # Load Assets
-lottie_coding = load_lottieurl("https://assets4.lottiefiles.com/private_files/lf30_BX96aR.json")
+lottie_coding = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_vnikrcia.json")
 lottie_aircraft = load_lottieurl("https://assets9.lottiefiles.com/private_files/lf30_tto68aem.json")
-lottie_space = load_lottieurl("https://assets7.lottiefiles.com/private_files/lf30_cmdcmgh0.json")
+lottie_space = load_lottieurl("https://assets1.lottiefiles.com/private_files/lf30_lbtOZb.json")
 img_income_expense = Image.open("images/income_expense_tracker.JPG")
 img_badminton = Image.open("images/badminton.JPG")
+img_aircraft_thai = Image.open("images/rsaf_thai.JPG")
+img_aircraft_darwin = Image.open("images/rsaf_darwin.JPG")
+img_transcelestial = Image.open("images/transcelestial.PNG")
 
 # Header Section
 with st.container():
@@ -37,7 +40,7 @@ with st.container():
         st.write("[Kaggle >](https://www.kaggle.com/jiahaulim)")
         st.write("[Resume >](https://docs.google.com/document/d/1kbwpSgbnK1KIC--Mh3nigywnwblRmixwkpXJVzBPox4/edit?usp=sharing)")
     with right_column:
-        st_lottie(lottie_coding, height=150, key="coding")
+        st_lottie(lottie_coding, height=400, key="coding")
 
 # My Work Experiences
 with st.container():
@@ -46,34 +49,45 @@ with st.container():
     with left_column:
         st.header("My Work Experiences")
         st.write("##") # add space
-
         st.subheader("Transcelestial - Engineering Intern")
         st.write("**May 2022 - Jul 2022**")
-        st.write(
-            """
-            - Developed an automated computer vision software using Python and OpenCV to communicate with space payloads via laser communication.
-            """
-        )    
+        st.image(img_transcelestial, caption="Transcelestial logo")
 
     with right_column:
-        st_lottie(lottie_space, height=150, key="space")
+        st.write("## \n ## \n ## \n ## \n ##")
+        st.write(
+            """
+            - Transcelestial is a laser communications startup built on the principle that connectivity is a human right. 
+            - With a mission to develop the fastest, long-distance, point-to-point wireless communication network possible delivered as a space data network.
+            - My internship objectives were to: 
+                1. Build up a portable optical ground station with the Celestron CPC 925 Computerised Telescope to establish high-speed laser communication.
+                2. Develop an automated computer vision software using Python and OpenCV (Pypogs) to communicate with space payloads. 
+            """
+        )    
+        st_lottie(lottie_space, height=200, key="space")
 
 with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.write("##")
-        st.subheader("RSAF - Air Force Engineer(Maintenance)")
+        st.subheader("RSAF - Air Force Engineer (Maintenance)")
         st.write("**Sep 2017 - Apr 2022**")
-        st.write(
-            """
-            - Supervised 150+ Full-time National Servicemen (NSF) during high-risk aircraft operations and inculcated good engineering practices, achieving 100% success in operations and safety.
-            """
-        )    
+        st.image(img_aircraft_thai, caption="RSAF-RTAF 35th Anniversary Combined Exercise 2019 (Cr: RSAF Facebook)", width=500)
+        st.image(img_aircraft_darwin, caption="RSAF Darwin Detachment 2021 (Cr: RSAF Facebook)", width=500)
 
     with right_column:
-        st.write("##")
-        st.write("##")
-        st_lottie(lottie_aircraft, height=150, key="aircraft")
+        st.write("## \n ## \n ## \n ## \n ##")
+        st.write(
+            """
+            - After completing General Maintenance Training in 2017, I was posted to 145 Squadron, home of the Hornets 🐝. 
+            - I got qualified to work on the F-16D+ Fighting Falcons in 2018 as a Flight Line Crew and ground engineer.
+            - My first overseas detachment was in Thailand 2019, as a newly qualified engineer. Nerve-racking, but definitely a memoriable experience!
+            - Towards the end of my career in the RSAF, I managed with work with 150+ Full-time National Servicemen (NSF), forging camaraderie and friendship.            
+            - With my management's support and guidance,  I was awarded the RSAF Best Serviceman of 2020 (Engineering Support).
+            - These days, instead of maintaining fighter jets, we are working together to solve tutorial problems in university 🤓.
+            """
+        )            
+        st_lottie(lottie_aircraft, height=450, key="aircraft")
 
 # Projects
 with st.container():
@@ -126,7 +140,7 @@ with st.container():
 
 with st.container():
     st.write("##")
-    st.write("Check out my [Kaggle](https://www.kaggle.com/jiahaulim) for more projects related to Data Science")
+    st.write("Check out my [Kaggle](https://www.kaggle.com/jiahaulim) for more projects related to **Data Science**")
 
 # Contact Form
 with st.container():
