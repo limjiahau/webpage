@@ -57,7 +57,7 @@ with st.container():
         st.write("## \n ## \n ## \n ## \n ##")
         st.write(
             """
-            - Transcelestial is a laser communications startup built on the principle that connectivity is a human right. 
+            - Transcelestial is a laser communications startup built on the principle that connectivity is a human right. With a mission to connect billions of people who do not have internet access.
             - With a mission to develop the fastest, long-distance, point-to-point wireless communication network possible delivered as a space data network.
             - My internship objectives were to: 
                 1. Build up a portable optical ground station with the Celestron CPC 925 Computerised Telescope to establish high-speed laser communication.
