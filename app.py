@@ -34,6 +34,7 @@ with st.container():
     st.title("An undergraduate student from Singapore")
     left_column, right_column = st.columns(2)
     with left_column:
+        st.write("A current undergraduate student, majoring in Mechanical Engineering at Nanyang Technological University, gaining experience in data visualizations, programming, machine learning.")
         st.write("Interested in Data Science, Machine Learning, Artificial Intelligence, and Cloud Computing ☁️")
         st.write("[LinkedIn >](https://www.linkedin.com/in/limjiahau/)")
         st.write("[GitHub >](https://github.com/limjiahau)")
