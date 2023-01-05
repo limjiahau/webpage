@@ -81,7 +81,7 @@ with st.container():
         st.write("## \n ## \n ## \n ## \n ##")
         st.write(
             """
-            - After completing General Maintenance Training in 2017, I was posted to 145 Squadron, home of the Hornets 🐝. 
+            - After completing General Maintenance Training in 2017, I was posted to 145 Squadron, home of the Hornets 🐝.
             - I got qualified to work on the F-16D+ Fighting Falcons in 2018 as a Flight Line Crew and ground engineer.
             - My first overseas detachment was in Thailand 2019, as a newly qualified engineer. Nerve-racking, but definitely a memoriable experience!
             - With my management's support and guidance,  I was awarded the RSAF Best Serviceman of 2020 (Engineering Support).
