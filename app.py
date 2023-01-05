@@ -112,7 +112,7 @@ with st.container():
             - What gaps exist between guest demand and host supply
             - Any other information that deepens the understanding of the data 
             
-            Tools Used
+            Tools Used:
             - Pandas
             - Numpy
             - Seaborn
