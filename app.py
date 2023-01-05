@@ -34,7 +34,7 @@ with st.container():
     st.title("An undergraduate student from Singapore")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.write("A current undergraduate student, majoring in Mechanical Engineering at Nanyang Technological University, gaining experience in data visualizations, programming, machine learning.")
+        st.write("A current undergraduate student, majoring in Mechanical Engineering at Nanyang Technological University.")
         st.write("Learning about Data Science, Machine Learning, Artificial Intelligence, and Cloud Computing ☁️.")
         st.write("Looking for a long term career in the tech industry and pursue a Masters in Computing if given the opportunity. 🙂")
         st.write("[LinkedIn >](https://www.linkedin.com/in/limjiahau/)")
@@ -100,7 +100,8 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image()
+        # st.image()
+        st.markdown("![Market Analysis](https://github.com/limjiahau/webpage/blob/main/images/market_analysis.GIF?raw=true)")
     with text_column:
         st.subheader("Market Analysis in Dublin")
         st.write(
