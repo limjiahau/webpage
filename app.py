@@ -30,7 +30,7 @@ img_transcelestial = Image.open("images/transcelestial.PNG")
 
 # Header Section
 with st.container():
-    st.subheader("Hello, I am JiaHau :wave:")
+    st.subheader("Hello, I am Joseph :wave:")
     st.title("An undergraduate student from Singapore")
     left_column, right_column = st.columns(2)
     with left_column:
