@@ -145,7 +145,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_badminton, width=350)
+        st.image(img_badminton)
     with text_column:
         st.subheader("Badminton Ladder and Management System")
         st.write(
