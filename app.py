@@ -36,7 +36,6 @@ with st.container():
     with left_column:
         st.write("A current undergraduate student, majoring in Mechanical Engineering at Nanyang Technological University.")
         st.write("Learning about Data Science, Machine Learning, Artificial Intelligence, and Cloud Computing ☁️.")
-        st.write("Looking for a long term career in the tech industry and pursue a Masters in Computing if given the opportunity 🙂.")
         st.write("[LinkedIn >](https://www.linkedin.com/in/limjiahau/)")
         st.write("[GitHub >](https://github.com/limjiahau)")
         st.write("[Kaggle >](https://www.kaggle.com/jiahaulim)")
