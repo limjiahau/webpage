@@ -130,13 +130,10 @@ with st.container():
             """
             Keep track of monthly income and expenses on an interactive web app created by leveraging Python and the Streamlit library. 
 
-            Using the NoSQL database from deta.
-
-            Visualise monthly spending usinga Sankey Chart from Plotly.
-
-            Uploaded onto Streamlit Cloud.
-
-            Utilised Streamlit's Secrets Management to secure sensitive finance data. 
+            1. Using the NoSQL database from deta.
+            2. Visualise monthly spending usinga Sankey Chart from Plotly.
+            3. Uploaded onto Streamlit Cloud.
+            4. Utilised Streamlit's Secrets Management to secure sensitive finance data. 
             """
         )
         st.markdown("[GitHub Repository](https://github.com/limjiahau/income-expense-tracker)")
