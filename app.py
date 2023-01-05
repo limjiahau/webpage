@@ -101,7 +101,7 @@ with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
         # st.image()
-        st.markdown("![Market Analysis](https://github.com/limjiahau/webpage/blob/main/images/market_analysis.GIF?raw=true)")
+        st.markdown("![Market Analysis](https://github.com/limjiahau/webpage/blob/main/images/ezgif.com-gif-maker.gif?raw=true)")
     with text_column:
         st.subheader("Market Analysis in Dublin")
         st.write(
