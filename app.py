@@ -150,7 +150,7 @@ with st.container():
         st.subheader("Badminton Ladder and Management System")
         st.write(
             """
-            Developed a data management program for managing a badminton ladder. 
+            Developed an interactive Badminton app with local data management to display a player leaderboard and track scores of completed matches using Python.
             
             Features of the program:
             1. Issue a challenge (stating opponent and play-by date)
