@@ -100,7 +100,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image("https://github.com/limjiahau/webpage/blob/main/images/market_analysis_2.GIF?raw=true", width=300)
+        st.image("https://github.com/limjiahau/webpage/blob/main/images/market_analysis_2.GIF?raw=true", width=350)
     with text_column:
         st.subheader("Market Analysis in Dublin")
         st.write(
