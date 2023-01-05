@@ -100,8 +100,6 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        # st.image()
-        # st.markdown("![Market Analysis](https://github.com/limjiahau/webpage/blob/main/images/ezgif.com-gif-maker.gif?raw=true)")
         st.image("https://github.com/limjiahau/webpage/blob/main/images/market_analysis_2.GIF?raw=true", width=400)
     with text_column:
         st.subheader("Market Analysis in Dublin")
@@ -113,6 +111,12 @@ with st.container():
             - Which inquiries hosts tend to accept.
             - What gaps exist between guest demand and host supply
             - Any other information that deepens the understanding of the data 
+            
+            Tools Used
+            - Pandas
+            - Numpy
+            - Seaborn
+            - Matplotlib.pyplot
             """
         )
         st.markdown("[GitHub Repository](https://github.com/limjiahau/market-analysis-in-dublin)")
