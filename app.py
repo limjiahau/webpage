@@ -35,7 +35,8 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.write("A current undergraduate student, majoring in Mechanical Engineering at Nanyang Technological University, gaining experience in data visualizations, programming, machine learning.")
-        st.write("Interested in Data Science, Machine Learning, Artificial Intelligence, and Cloud Computing ☁️.")
+        st.write("Learning about Data Science, Machine Learning, Artificial Intelligence, and Cloud Computing ☁️.")
+        st.write("Looking for a long term career in the tech industry and pursue a Masters in Computing if given the opportunity. 🙂")
         st.write("[LinkedIn >](https://www.linkedin.com/in/limjiahau/)")
         st.write("[GitHub >](https://github.com/limjiahau)")
         st.write("[Kaggle >](https://www.kaggle.com/jiahaulim)")
@@ -95,6 +96,24 @@ with st.container():
     st.write("---")
     st.header("My Personal Projects")
     st.write("##")
+    
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image()
+    with text_column:
+        st.subheader("Market Analysis in Dublin")
+        st.write(
+            """
+            The goal of this project was to analyze, understand, visualize, and communicate the demand/supply of the market in Dublin.
+            My aim was to answer the following questions:
+            - What guests are searching for in Dublin,
+            - Which inquiries hosts tend to accept.
+            - What gaps exist between guest demand and host supply
+            - Any other information that deepens the understanding of the data 
+            """
+        )
+        st.markdown("[GitHub Repository](https://github.com/limjiahau/market-analysis-in-dublin)")
 
 with st.container():
     image_column, text_column = st.columns((1, 2))
