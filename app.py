@@ -39,7 +39,6 @@ with st.container():
         st.write("[LinkedIn >](https://www.linkedin.com/in/limjiahau/)")
         st.write("[GitHub >](https://github.com/limjiahau)")
         st.write("[Kaggle >](https://www.kaggle.com/jiahaulim)")
-        st.write("[Resume >](https://docs.google.com/document/d/1kbwpSgbnK1KIC--Mh3nigywnwblRmixwkpXJVzBPox4/edit?usp=sharing)")
     with right_column:
         st_lottie(lottie_coding, height=400, key="coding")
 
