@@ -39,6 +39,7 @@ with st.container():
         st.write("[LinkedIn >](https://www.linkedin.com/in/limjiahau/)")
         st.write("[GitHub >](https://github.com/limjiahau)")
         st.write("[Kaggle >](https://www.kaggle.com/jiahaulim)")
+        st.write("Want to pursue a career in tech for good!")
     with right_column:
         st_lottie(lottie_coding, height=400, key="coding")
 
