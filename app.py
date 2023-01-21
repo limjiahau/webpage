@@ -100,7 +100,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_stock_market, width=500)
+        st.image(img_stock_market)
     with text_column:
         st.subheader("Stock Price Direction Prediction")
         st.write(
@@ -136,10 +136,10 @@ with st.container():
             - Any other information that deepens the understanding of the data 
             
             Tools Used:
-                - Pandas
-                - Numpy
-                - Seaborn
-                - Matplotlib.pyplot
+            - Pandas
+            - Numpy
+            - Seaborn
+            - Matplotlib.pyplot
             """
         )
         st.markdown("[GitHub Repository](https://github.com/limjiahau/market-analysis-in-dublin)")
