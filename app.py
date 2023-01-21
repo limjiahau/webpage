@@ -27,6 +27,7 @@ img_badminton = Image.open("images/badminton.JPG")
 img_aircraft_thai = Image.open("images/rsaf_thai.JPG")
 img_aircraft_darwin = Image.open("images/rsaf_darwin.JPG")
 img_transcelestial = Image.open("images/transcelestial.PNG")
+img_stock_market = Image.open("image/stock_marjet.JPG")
 
 # Header Section
 with st.container():
@@ -95,6 +96,29 @@ with st.container():
     st.write("---")
     st.header("My Personal Projects")
     st.write("##")
+    
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_stock_market)
+    with text_column:
+        st.subheader("Stock Price Direction Prediciton")
+        st.write(
+            """
+            1. Predict the day price direction of a stock (i.e. AMZN). 
+            - To be profitable, we need to predict correctly whether the price tomorrow will be higher or lower than the price today.
+            2. Performed Data Exploration on training, validation and testing set to check for similar distribution and anomalies. 
+            3. Carried out Feature Enginering for easier data manipulation.
+            4. Machine Learning Algorithms
+            - Logistic Regression (AUC: 0.49)
+            - Decision Tree (AUC: 0.51)
+            - Random Forest (AUC: 0.51)
+            - Gradient Boosting Ensemble (AUC: 0.55)
+            5. Deep Learning Algorithm
+            - Tensorflow, Keras (AUC: 0.5)
+            """
+        )
+        st.markdown("[GitHub Repository](https://github.com/limjiahau/prediction-of-stock-price-direction)")
     
 with st.container():
     image_column, text_column = st.columns((1, 2))
