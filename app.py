@@ -27,7 +27,7 @@ img_badminton = Image.open("images/badminton.JPG")
 img_aircraft_thai = Image.open("images/rsaf_thai.JPG")
 img_aircraft_darwin = Image.open("images/rsaf_darwin.JPG")
 img_transcelestial = Image.open("images/transcelestial.PNG")
-img_stock_market = Image.open("image/stock_market.JPG")
+img_stock_market = Image.open("images/stock_market.JPG")
 
 # Header Section
 with st.container():
