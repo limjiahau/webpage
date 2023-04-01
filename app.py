@@ -32,7 +32,7 @@ img_stock_market = Image.open("images/stock_market.JPG")
 
 # Header Section
 with st.container():
-    st.subheader("Hello, I am Jiahau :wave:")
+    st.subheader("Hello, I am Jia Hau :wave:")
     st.title("An undergraduate student from Singapore")
     left_column, right_column = st.columns(2)
     with left_column:
