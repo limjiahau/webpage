@@ -22,6 +22,7 @@ local_css("style/style.css")
 lottie_coding = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_vnikrcia.json")
 lottie_aircraft = load_lottieurl("https://assets9.lottiefiles.com/private_files/lf30_tto68aem.json")
 lottie_space = load_lottieurl("https://assets1.lottiefiles.com/private_files/lf30_lbtOZb.json")
+lottie_data_analysis = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_49rdyysj.json")
 img_income_expense = Image.open("images/income_expense_tracker.JPG")
 img_badminton = Image.open("images/badminton.JPG")
 img_aircraft_thai = Image.open("images/rsaf_thai.JPG")
@@ -36,10 +37,9 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.write("Majoring in Mechanical Engineering at Nanyang Technological University.")
-        st.write("Learning about Data Science, Machine Learning, Artificial Intelligence, and Cloud Computing ☁️.")
+        st.write("Trying to break into the field of Data Science and Artificial Intelligence.")
         st.write("[LinkedIn >](https://www.linkedin.com/in/limjiahau/)")
         st.write("[GitHub >](https://github.com/limjiahau)")
-        st.write("[Kaggle >](https://www.kaggle.com/jiahaulim)")
         st.write("Want to pursue a career in tech for good!")
     with right_column:
         st_lottie(lottie_coding, height=400, key="coding")
@@ -51,6 +51,25 @@ with st.container():
     with left_column:
         st.header("My Work Experiences")
         st.write("##") # add space
+        st.subheader("NTU Wellbeing Office - Data Analyst")
+        st.write("**March 2023 - Present**")
+        st_lottie(lottie_data_analysis, height=400, key="data")
+
+    with right_column:
+        st.write("## \n ## \n ## \n ## \n ##")
+        st.write(
+            """
+            - My role as a Data Analyst includes identifying data, metrics and analysis needs for employees.
+            - To allow participants to better understand themselves, I developed a profiler survey using Python and Flask to display personalised results.
+            - I also lead the full data life cycle of data collection to insighs generation through behavioural analysis.
+            - To allow management to make swift decisions, I develop and maintain data pipelines and models that automate real-time dashboards.
+            """
+        )
+
+with st.container():
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.write("##") 
         st.subheader("Transcelestial - Engineering Intern")
         st.write("**May 2022 - Jul 2022**")
         st.image(img_transcelestial, caption="Transcelestial logo")
