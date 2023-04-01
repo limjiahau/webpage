@@ -38,9 +38,9 @@ with st.container():
     with left_column:
         st.write("Majoring in Engineering at Nanyang Technological University (NTU).")
         st.write("Trying to break into the field of Data Science and Artificial Intelligence.")
+        st.write("Actively pursuing for opportunities to develop my technical and collaborative skills!")
         st.write("[LinkedIn >](https://www.linkedin.com/in/limjiahau/)")
         st.write("[GitHub >](https://github.com/limjiahau)")
-        st.write("Want to pursue a career in tech for good!")
     with right_column:
         st_lottie(lottie_coding, height=400, key="coding")
 
