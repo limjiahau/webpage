@@ -36,7 +36,7 @@ with st.container():
     st.title("An undergraduate student from Singapore")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.write("Majoring in Mechanical Engineering at Nanyang Technological University (NTU).")
+        st.write("Majoring in Engineering at Nanyang Technological University (NTU).")
         st.write("Trying to break into the field of Data Science and Artificial Intelligence.")
         st.write("[LinkedIn >](https://www.linkedin.com/in/limjiahau/)")
         st.write("[GitHub >](https://github.com/limjiahau)")
