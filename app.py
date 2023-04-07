@@ -114,11 +114,11 @@ with st.container():
 with st.container():
     st.write("---")
     st.header("My Personal Projects")
-    st.write("##")
     
 with st.container():
     st.write("##")
     st.write("Please check out my [GitHub](https://github.com/limjiahau) for my up-to-date projects :)")
+    st.write("##")
     
 with st.container():
     image_column, text_column = st.columns((1, 2))
