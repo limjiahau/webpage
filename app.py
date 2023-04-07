@@ -117,13 +117,8 @@ with st.container():
     st.header("My Personal Projects")
 
 with st.container():
-    left_column, right_column = st.columns(2)
-    with left_column:
-        st.write("Click [here](https://github.com/limjiahau) for my up-to-date projects")
-        st_lottie(lottie_cat, height=400, key="cat")
-        st.write("##")
-#     with right_column:
-#         st_lottie(lottie_cat, height=400, key="cat")
+    st.write("Click [here](https://github.com/limjiahau) for my up-to-date projects")
+    st.write("##")
     
 with st.container():
     image_column, text_column = st.columns((1, 2))
@@ -231,4 +226,5 @@ with st.container():
     with left_column:
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
-        st.empty()
+        # st.empty()
+        st_lottie(lottie_cat, height=400, key="cat")
