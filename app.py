@@ -120,9 +120,10 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.write("Click [here](https://github.com/limjiahau) for my up-to-date projects")
-        st.write("##")
-    with right_column:
         st_lottie(lottie_cat, height=400, key="cat")
+        st.write("##")
+#     with right_column:
+#         st_lottie(lottie_cat, height=400, key="cat")
     
 with st.container():
     image_column, text_column = st.columns((1, 2))
