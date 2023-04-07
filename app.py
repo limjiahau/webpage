@@ -119,7 +119,7 @@ with st.container():
 with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
-        st.write("Please check out my [GitHub](https://github.com/limjiahau) for my up-to-date projects")
+        st.write("Click [here](https://github.com/limjiahau) for my up-to-date projects")
         st.write("##")
     with right_column:
         st_lottie(lottie_cat, height=400, key="cat")
