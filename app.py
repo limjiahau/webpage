@@ -117,6 +117,10 @@ with st.container():
     st.write("##")
     
 with st.container():
+    st.write("##")
+    st.write("Please check out my [GitHub](https://github.com/limjiahau) for my up-to-date projects :)")
+    
+with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_stock_market)
@@ -202,10 +206,6 @@ with st.container():
             """
         )
         st.markdown("[GitHub Repository](https://github.com/limjiahau/Badminton-Ladder-and-Management-System)")
-
-with st.container():
-    st.write("##")
-    st.write("Check out my [Kaggle](https://www.kaggle.com/jiahaulim) for more projects related to **Data Science**")
 
 # Contact Form
 with st.container():
