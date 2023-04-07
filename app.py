@@ -23,6 +23,7 @@ lottie_coding = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_vn
 lottie_aircraft = load_lottieurl("https://assets9.lottiefiles.com/private_files/lf30_tto68aem.json")
 lottie_space = load_lottieurl("https://assets1.lottiefiles.com/private_files/lf30_lbtOZb.json")
 lottie_data_analysis = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_49rdyysj.json")
+lottie_cat = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_qdmqazrc/tareco homepage.json")
 img_income_expense = Image.open("images/income_expense_tracker.JPG")
 img_badminton = Image.open("images/badminton.JPG")
 img_aircraft_thai = Image.open("images/rsaf_thai.JPG")
@@ -114,10 +115,14 @@ with st.container():
 with st.container():
     st.write("---")
     st.header("My Personal Projects")
-    
+
 with st.container():
-    st.write("Please check out my [GitHub](https://github.com/limjiahau) for my up-to-date projects :)")
-    st.write("##")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.write("Please check out my [GitHub](https://github.com/limjiahau) for my up-to-date projects")
+        st.write("##")
+    with righ_column:
+        st_lottie(lottie_cat, height=400, key="cat")
     
 with st.container():
     image_column, text_column = st.columns((1, 2))
