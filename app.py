@@ -116,7 +116,6 @@ with st.container():
     st.header("My Personal Projects")
     
 with st.container():
-    st.write("##")
     st.write("Please check out my [GitHub](https://github.com/limjiahau) for my up-to-date projects :)")
     st.write("##")
     
