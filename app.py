@@ -60,10 +60,10 @@ with st.container():
         st.write("## \n ## \n ## \n ## \n ##")
         st.write(
             """
-            - My role as a Data Analyst includes identifying data, metrics and analysis needs for employees.
-            - To allow participants to better understand themselves, I developed a profiler survey using Python and Flask to display personalised results.
-            - I also lead the full data life cycle of data collection to insighs generation through behavioural analysis.
-            - To allow management to make swift decisions, I develop and maintain data pipelines and models that automate real-time dashboards.
+            - My role as a Data Analyst includes identifiyng data, metrics and analysis needs for employees while collaborating with subject matter specialists to drive initiatives
+            - To allow participants to better understand themselves and aid quality data collection, I developed a profiler survey using Python and Flask to display personalised results.
+            - Lead full data life cycle of collecting data to generating insights through behavioural analysis of workshop effectiveness
+            - To allow management to make swift decisions, I develop and maintain data models to automate visualisation dashboards.
             """
         )
 
@@ -117,7 +117,7 @@ with st.container():
     st.header("My Personal Projects")
 
 with st.container():
-    st.write("Click [here](https://github.com/limjiahau) for my up-to-date projects on GitHub")
+    st.write("##Click [here](https://github.com/limjiahau) for my up-to-date projects on GitHub")
     st.write("##")
     
 with st.container():
